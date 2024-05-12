@@ -1,0 +1,35 @@
+/* Styles pour l'en-tête */
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 200px;
+    height: auto;
+    border: 5px solid black; /* Cadre autour de l'image */
+    border-radius: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styles pour le bouton de retour */
+.return-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #f00; /* Rouge pour le bouton */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.return-button:hover {
+    background-color: #c00; /* Rouge foncé au survol */
+}
