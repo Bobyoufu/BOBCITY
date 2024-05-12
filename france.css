@@ -5,16 +5,18 @@
 }
 
 .header img {
-    width: 200px;
+    width: 300px; /* Ajustement de la taille de l'image */
     height: auto;
     border: 5px solid black; /* Cadre autour de l'image */
     border-radius: 10px;
 }
 
 .header p {
-    font-size: 18px;
+    font-size: 24px; /* Augmentation de la taille de la police */
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px; /* Espacement supplémentaire par rapport à l'image */
+    color: #ff0000; /* Couleur rouge pour plus d'impact */
+    text-transform: uppercase; /* Mettre le texte en majuscules */
 }
 
 /* Styles pour le bouton de retour */
