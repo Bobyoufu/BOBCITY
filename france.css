@@ -15,8 +15,7 @@
     font-size: 24px; /* Augmentation de la taille de la police */
     font-weight: bold;
     margin-top: 20px; /* Espacement supplémentaire par rapport à l'image */
-    color: #ff0000; /* Couleur rouge pour plus d'impact */
-    text-transform: uppercase; /* Mettre le texte en majuscules */
+    color: #000; /* Couleur noire pour le texte */
 }
 
 /* Modifie le style du texte de bienvenue */
@@ -32,4 +31,21 @@
 .glory-text {
     font-weight: bold; /* Texte en gras */
     text-transform: uppercase; /* Mettre le texte en majuscules */
+}
+
+/* Styles pour le bouton de retour */
+.return-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background-color: #f00; /* Rouge pour le bouton */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.return-button:hover {
+    background-color: #c00; /* Rouge foncé au survol */
 }
