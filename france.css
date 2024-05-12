@@ -19,6 +19,13 @@
     text-transform: uppercase; /* Mettre le texte en majuscules */
 }
 
+/* Styles pour le paragraphe de bienvenue */
+.welcome-text {
+    font-size: 20px; /* Taille de police pour le texte de bienvenue */
+    margin-top: 20px; /* Espacement par rapport au texte précédent */
+    text-align: center; /* Centrage du texte */
+}
+
 /* Styles pour le bouton de retour */
 .return-button {
     position: absolute;
