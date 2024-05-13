@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="france.css">
 </head>
 <body>
-    <div class="header">
-        <img src="BOBYOUFU.png" alt="BOBYOUFU">
-        <p>GLOIRE À BOBYOUFU, NOTRE GRAND LEADER</p>
-        <p class="welcome-text">Bienvenue sur la section française de BOBCITY, vous trouverez ici toutes les infos nécessaires pour vous,</p>
-        <p class="glory-text">GLOIRE A BOBCITY</p>
+    <div class="container">
+        <button onclick="showContent('histoire')">Histoire</button>
+        <button onclick="showContent('bobyoufu')">Bobyoufu</button>
+        <!-- Ajoute d'autres boutons pour chaque catégorie -->
     </div>
-    <a href="index.html" class="return-button">RETOUR AU MENU PRINCIPAL</a>
+
+    <div class="content" id="histoire">
+        <!-- Contenu de la catégorie "Histoire" -->
+        <h2>Histoire de Bobcity</h2>
+        <p>C'est ici que vous trouverez toutes les informations sur l'histoire de Bobcity.</p>
+    </div>
+    <div class="content" id="bobyoufu" style="display: none;">
+        <!-- Contenu de la catégorie "Bobyoufu" -->
+        <h2>Bobyoufu, le grand leader</h2>
+        <p>Découvrez tout sur Bobyoufu, notre grand leader.</p>
+    </div>
+    <!-- Ajoute d'autres divs pour chaque contenu de catégorie -->
+    
+    <script src="france.js"></script>
 </body>
 </html>
