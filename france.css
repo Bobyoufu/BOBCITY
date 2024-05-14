@@ -104,3 +104,23 @@ button:hover {
     margin-top: 10px; /* Espacement entre les paragraphes */
 }
 
+/* Styles spécifiques pour la section "Bob L'Empereur" */
+#bob_empereur h2 {
+    background-color: #8B0000; /* Rouge foncé */
+    color: #FFD700; /* Jaune */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#bob_empereur h3 {
+    color: #8B0000; /* Rouge foncé */
+    border-bottom: 2px solid #8B0000; /* Bordure basse rouge foncé */
+    padding-bottom: 5px;
+    margin-top: 20px; /* Espacement entre les titres */
+}
+
+#bob_empereur p {
+    color: #333; /* Couleur de texte légèrement plus sombre */
+    line-height: 1.5; /* Hauteur de ligne pour une meilleure lisibilité */
+    margin-top: 10px; /* Espacement entre les paragraphes */
+}
